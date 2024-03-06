@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #f111b5;
+	font-size: 90px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,204,0); stroke: rgb(226, 17, 195);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,204,0); stroke: rgb(38, 231, 8); }
+	80%  {fill: rgba(72,138,204,0); stroke: rgb(38, 231, 8); stroke-width: 3; }
+	100% {
+		fill: rgb(241, 239, 246); stroke: rgba(54,95,160,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(https://blog.cirquedusoleil.com/-/media/blog/fb_open_graph/cds-10-things-vegas-og-image-1200x630.jpg?db=web&vs=1&hash=2E45DF71723F4EF226529BDBE6BE0F7D);
+    background-position: center;
+    background-size: cover; /* Esto hace que la imagen cubra completamente el espacio disponible */
+    background-repeat: no-repeat;
+    width: 100vw; /* 100% del ancho de la ventana */
+    height: 100vh;
+}
+
+input[type="number"] {
+    margin: 10px 0;
+    padding: 8px;
+}
+
+button {
+    margin: 10px 0;
+    padding: 8px;
+    cursor: pointer;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    color: #FFFFFF;    
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #FFFFFF;
+    font-size: 60px;
+
+}
+
+#inputsss
+{
+    display: flex; /* Activa Flexbox */
+    flex-direction: column; /* Organiza los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente si tienes altura definida */
+    
+}
+#resultado
+{
+    color: #FFFFFF;    
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #FFFFFF;
+    font-size: 40px;
+    
+}
+
+input {
+    border: 2px dashed #1710e0;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    background-color: #f14abf;
+    color: #f5f9fd;
+    box-shadow: -8px 12px 18px 2px rgba(4, 252, 62, 0.59);
+    -webkit-box-shadow: -8px 12px 18px 2px rgba(4, 252, 62, 0.59);
+    -moz-box-shadow: -8px 12px 18px 2px rgba(4, 252, 62, 0.59);
+    margin-bottom: 30px;
+    border-radius: 40px 40px 40px 40px;
+  }
+  
+  .testbutton {
+    font-family: impact;
+    color: #2DC922 !important;
+    font-size: 34px;
+    text-shadow: 0px 4px 0px #131A21;
+    box-shadow: 8px 1px 5px #F9F8EF;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid #3866A3;
+    background: #EEEEEE;
+    background: linear-gradient(to top, #e80a0a, #f0f3f5);
+  }
+  .testbutton:hover {
+    color: rgb(74, 5, 235) !important;
+    background: #29AECF;
+    background: linear-gradient(to top, #29AECF, #BC47EE);
+    font-size: 50px;
+  }
+  
+  
